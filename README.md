@@ -3,9 +3,9 @@
 A modern, responsive e-commerce web application built for university project submission.
 
 ## 👥 Group Members
-- Muhammad Taha 25F-0694
-- Abdulrehman   25F-0697
-- Ahmad         25F-0776
+- Muhammad Taha Hayyat 25F-0694
+- Abdul Rehman Rizwan  25F-0697
+- Muhammad Ahmad       25F-0776
 ## 📋 Project Description
 This e-commerce platform features product listings, shopping cart functionality, user authentication, and a responsive design. Built using HTML, CSS, and JavaScript.
 
