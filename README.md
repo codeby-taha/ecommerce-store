@@ -21,11 +21,34 @@ This e-commerce platform features product listings, shopping cart functionality,
 - **Styling**: CSS Grid/Flexbox
 - **Version Control**: Git & GitHub
 
+  
+ ## 🔗 Live Demo
+
+Click below to view the live working website:
+
+👉 **[Live Demo](https://codeby-taha.github.io/ecommerce-store/)**  
+
+
 ## 📁 Project Structure
+
 ecommerce-store/
-├── index.html
-├── products.html
-├── cart.html
-├── style.css
-├── script.js
-└── README.md
+│
+├── index.html          # Main website file
+├── style.css           # Stylesheet for layout & design
+├── script.js           # JavaScript functionality
+│
+├── front.png.jpg       # Hero section image
+├── lap.png             # About section image
+├── last.jpg.jpg        # Blog image
+├── m3.png              # Product images
+├── map.PNG             # Contact map image
+├── men.jpg.jpg         # Blog image
+├── mid.jpg.jpg         # Women's product image
+├── srt1.webp           # Men's product image
+├── srt2.webp           # Men's product image
+├── srt6.webp           # Men's product image
+├── wn4.webp            # Women's product image
+├── wn6.webp            # Women's product image
+│
+└── README.md           # Project documentation
+
