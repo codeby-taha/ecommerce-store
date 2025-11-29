@@ -1,0 +1,401 @@
+<!DOCTYPE html> <!-- This tells the browser we are using HTML5 -->
+<html lang="en"> <!-- The website language is English -->
+
+<head> <!-- The head section contains website settings and files -->
+
+    <meta charset="UTF-8"> <!-- Allows the page to show all characters correctly -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes the website fit on phones -->
+
+    <title>Elite Wardrobe</title> <!-- Website name shown on the browser tab -->
+
+    <link rel="stylesheet" href="style.css"> <!-- Linking our CSS file (name changed) -->
+
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script> <!-- Icons library -->
+
+    <!-- Google fonts used in the site -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+        <!-- Keeps your original fonts, no changes made here -->
+
+</head> <!-- End of head section -->
+
+<body> <!-- Start of the visible page -->
+
+    <div class="container"> <!-- This wrapper holds the whole website -->
+
+        <!-- ---------------------- NAVIGATION BAR ---------------------- -->
+
+        <nav> <!-- Top menu bar -->
+
+            <div class="logo"> <!-- Logo area -->
+                <h1>Elite Wardrobe</h1> <!-- Changed from "Trends" to your new name -->
+            </div>
+
+            <ul> <!-- Menu list -->
+                <li>
+
+                    <!-- These buttons switch pages using JavaScript -->
+                    <a id="home" onclick="homes()">Home</a> <!-- Home button -->
+                    <a id="shop" onclick="shops()">Shop</a> <!-- Shop button -->
+                    <a id="blog" onclick="blogs()">Blog</a> <!-- Blog button -->
+                    <a id="about" onclick="abouts()">About</a> <!-- About button -->
+                    <a id="contact" onclick="contacts()">Contact</a> <!-- Contact button -->
+
+                    <i class="fa-sharp fa-solid fa-cart-shopping"></i> <!-- Cart icon -->
+
+                </li>
+            </ul>
+
+        </nav> <!-- End of navigation bar -->
+
+        <!-- ---------------------- HERO SECTION ---------------------- -->
+
+        <div class="main"> <!-- Main banner section -->
+
+            <div class="mainText"> <!-- Text on the left side of banner -->
+
+                <h2>Elite Wardrobe</h2> <!-- Brand heading -->
+
+                <h1 class="top">Premium Style Deals</h1> <!-- Updated heading to a better fashion slogan -->
+
+                <h1>On All Collections</h1> <!-- Second heading -->
+
+                <p>Discover stylish outfits designed for comfort, elegance, and everyday wear.</p>
+                <!-- Replaced lorem ipsum with a clean, meaningful sentence -->
+
+                <button>Explore</button> <!-- Main action button -->
+
+            </div>
+
+            <img src="front.png.jpg" alt=""> <!-- Main banner image on the right -->
+
+        </div> <!-- End of hero section -->
+        <!-- ---------------------- MEN'S PRODUCTS ---------------------- -->
+
+        <div class="trend"> <!-- First product section for men -->
+
+            <div class="head"> <!-- Section heading -->
+                <h1>Elite Wardrobe <span>Men's Collection</span></h1> <!-- Updated heading -->
+            </div>
+
+            <div class="card"> <!-- Wrapper for product cards -->
+
+                <!-- ------------------ CARD 1 ------------------ -->
+                <div class="crd"> <!-- Single product box -->
+                    <img src="srt1.webp" alt="" onclick="show(this)"> <!-- Clicking opens product preview -->
+
+                    <div class="crdText"> <!-- Details of product -->
+                        <h2>Premium Cotton Shirt</h2> <!-- Replaced lorem text with real item title -->
+
+                        <!-- Star ratings -->
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+
+                        <br>
+
+                        <button>Add to Cart</button> <!-- Add to cart button -->
+                    </div>
+                </div>
+
+                <!-- ------------------ CARD 2 ------------------ -->
+                <div class="crd">
+                    <img src="srt2.webp" alt="" onclick="show(this)">
+
+                    <div class="crdText">
+                        <h2>Modern Fit Cotton Shirt</h2> <!-- Updated text -->
+
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+
+                        <br>
+
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- ------------------ CARD 3 ------------------ -->
+                <div class="crd">
+                    <img src="srt6.webp" alt="" onclick="show(this)">
+
+                    <div class="crdText">
+                        <h2>Classic Men's Casual Shirt</h2> <!-- Updated shirt name -->
+
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+
+                        <br>
+
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+
+            </div> <!-- End of product card wrapper -->
+        </div> <!-- End of men's product section -->
+
+
+        <!-- ---------------------- WOMEN'S PRODUCTS ---------------------- -->
+
+        <div class="trend" id="trendSec"> <!-- Second product section for women -->
+
+            <div class="head"> <!-- Heading -->
+                <h1>Elite Wardrobe <span>Women's Collection</span></h1>
+            </div>
+
+            <div class="card"> <!-- Product cards wrapper -->
+
+                <!-- ------------------ WOMEN CARD 1 ------------------ -->
+                <div class="crd">
+                    <img src="wn4.webp" alt="" onclick="show(this)">
+
+                    <div class="crdText">
+                        <h2>Stylish Summer Top</h2> <!-- Updated clothing title -->
+
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+
+                        <br>
+
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- ------------------ WOMEN CARD 2 ------------------ -->
+                <div class="crd">
+                    <img src="mid.jpg.jpg" alt="" onclick="show(this)">
+
+                    <div class="crdText">
+                        <h2>Trendy Casual Top</h2> <!-- Updated text -->
+
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+
+                        <br>
+
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- ------------------ WOMEN CARD 3 ------------------ -->
+                <div class="crd">
+                    <img src="wn6.webp" alt="" onclick="show(this)">
+
+                    <div class="crdText">
+                        <h2>Elegant Evening Top</h2> <!-- Updated top name -->
+
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+
+                        <br>
+
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+
+            </div> <!-- End women's cards wrapper -->
+        </div> <!-- End women's section -->
+
+
+        <!-- ---------------------- ABOUT SECTION ---------------------- -->
+
+        <div class="about"> <!-- Full about section wrapper -->
+
+            <div class="aboutus"> <!-- Header banner -->
+                <h1>#KnowUs</h1> <!-- Section intro -->
+                <p>Your trusted fashion store for premium styles.</p> <!-- Replaced lorem text -->
+            </div>
+
+            <div class="me"> <!-- Box containing image and text -->
+                <img src="lap.png" alt=""> <!-- About image -->
+
+                <div class="aboutText"> <!-- About text area -->
+                    <h1>Who We Are?</h1> <!-- Title -->
+
+                    <p>
+                        At Elite Wardrobe, we bring you modern clothing designed with quality, comfort, and elegance in mind.
+                        Our goal is to offer fashion that helps you feel confident—no matter the occasion.
+                        Every piece is selected carefully to match current trends and timeless style.
+                    </p>
+                    <!-- Replaced long lorem ipsum with a clean, professional brand intro -->
+                </div>
+            </div>
+        </div> <!-- End about section -->
+
+
+        <!-- ---------------------- CONTACT SECTION ---------------------- -->
+
+        <div class="contact"> <!-- Contact wrapper -->
+
+            <div class="contactus"> <!-- Banner for contact -->
+                <h1>#Let's Connect</h1>
+                <p>We’d love to hear from you!</p>
+            </div>
+
+            <div class="contactMe"> <!-- Contact info + map -->
+
+                <div class="contactText"> <!-- Left side info -->
+                    <h1>Visit Our Office or Contact Us</h1>
+
+                    <p><strong>Address:</strong> Street 235, Main Gulberg, Lahore</p> <!-- Updated as requested -->
+                    <p><strong>Email:</strong> elitewardrobe@gmail.com</p> <!-- Improved email -->
+                    <p><strong>Phone:</strong> +92 300 678723</p> <!-- Updated as requested -->
+                </div>
+
+                <img src="map.PNG" alt=""> <!-- Map image -->
+            </div>
+
+
+            <!-- Contact Form -->
+            <div class="form">
+                <h1>Connect With Us</h1>
+
+                <!-- Replaced duplicate "Enter Email" inputs with proper fields -->
+                <input type="text" placeholder="Enter Your Name"> <br>
+                <input type="email" placeholder="Enter Your Email"> <br>
+                <input type="text" placeholder="Enter Your Phone Number"> <br>
+                <input type="text" placeholder="Subject"> <br>
+                <input type="text" placeholder="Your Message"> <br>
+
+                <button>Submit</button> <!-- Form button -->
+            </div>
+
+        </div> <!-- End contact section -->
+        <!-- ---------------------- BLOG SECTION ---------------------- -->
+
+        <div class="trends"> <!-- Blog section wrapper -->
+
+            <div class="head"> <!-- Blog heading -->
+                <h1>Elite Wardrobe <span>Blog Updates</span></h1>
+            </div>
+
+            <div class="card"> <!-- Blog cards row -->
+
+                <!-- ------------------ BLOG 1 ------------------ -->
+                <div class="blog">
+                    <img src="last.jpg.jpg" alt=""> <!-- Blog image -->
+
+                    <div class="blogText">
+                        <h2>Latest Fashion Tips</h2> <!-- Blog title -->
+                        <p>Discover how to style modern outfits effortlessly using colors, layers, and fits.</p>
+                        <!-- Simple clean content -->
+
+                        <a>Read More</a> <!-- Read more button -->
+                    </div>
+                </div>
+
+                <!-- ------------------ BLOG 2 ------------------ -->
+                <div class="blog">
+                    <img src="men.jpg.jpg" alt="">
+
+                    <div class="blogText">
+                        <h2>Trending Styles 2025</h2>
+                        <p>See the latest fashion trends taking over this year in both men's and women's clothing.</p>
+
+                        <a>Read More</a>
+                    </div>
+                </div>
+
+            </div> <!-- End blog row -->
+
+        </div> <!-- End blog section -->
+
+
+        <!-- ---------------------- NEWSLETTER SECTION ---------------------- -->
+
+        <div class="letter"> <!-- Newsletter box -->
+
+            <div class="letterText"> <!-- Left side text -->
+                <h1>Join Our Newsletter</h1>
+                <p>Get updates on new arrivals and exclusive offers.</p>
+            </div>
+
+            <div class="inp"> <!-- Right side input box -->
+                <input type="email" placeholder="Enter your email"> <!-- Email input -->
+                <button>Subscribe</button> <!-- Subscribe button -->
+            </div>
+
+        </div> <!-- End newsletter -->
+
+
+        <!-- ---------------------- CART PREVIEW SECTION ---------------------- -->
+
+        <div class="cart"> <!-- Cart page wrapper -->
+            <img id="newImg" src="" alt=""> <!-- Product image preview (changes when clicked) -->
+
+            <div class="cartText"> <!-- Cart details -->
+                <h1>Product Details</h1>
+
+                <p>Selected item from Elite Wardrobe’s premium collection.</p> <!-- Simple text -->
+
+                <h2>$49.00</h2> <!-- Example price -->
+
+                <div class="btn"> <!-- Buttons container -->
+                    <button onclick="addCart()">Buy Now</button> <!-- Buy button -->
+                </div>
+
+                <button class="back" onclick="location.reload()">Back</button> <!-- Back to home -->
+            </div>
+        </div> <!-- End cart section -->
+
+
+        <!-- ---------------------- FOOTER SECTION ---------------------- -->
+
+        <div class="footer"> <!-- Footer wrapper -->
+
+            <!-- Footer column 1 -->
+            <div class="footerText">
+                <h2>Elite Wardrobe</h2>
+                <p>Street 235, Main Gulberg, Lahore</p> <!-- Address updated -->
+                <p>Phone: +92 300 678723</p> <!-- Updated number -->
+                <p>Email: elitewardrobe@gmail.com</p>
+            </div>
+
+            <!-- Footer column 2 -->
+            <div class="footerText">
+                <h2>Quick Links</h2>
+                <p>Home</p>
+                <p>Shop</p>
+                <p>Blog</p>
+                <p>About</p>
+                <p>Contact</p>
+            </div>
+
+            <!-- Footer column 3 -->
+            <div class="footerText">
+                <h2>Support</h2>
+                <p>FAQs</p>
+                <p>Privacy Policy</p>
+                <p>Return Policy</p>
+                <p>Terms & Conditions</p>
+            </div>
+
+        </div> <!-- End footer -->
+
+
+    </div> <!-- End container -->
+
+
+    <!-- Linking the JavaScript file (name changed from web.js to script.js) -->
+    <script src="script.js"></script>
+
+</body> <!-- End body -->
+
+</html> <!-- End HTML -->
