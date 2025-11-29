@@ -1,33 +1,33 @@
-# 🛍️ E-Commerce Store
+# 👗 Elite Wardrobe – E-Commerce Website
 
-A modern, responsive e-commerce web application built for university project submission.
+Elite Wardrobe is a modern and responsive fashion e-commerce website.  
+It showcases men's and women's clothing collections with interactive sections, smooth navigation, and a clean user experience.
 
-## 👥 Group Members
-- Muhammad Taha Hayyat 25F-0694
-- Abdul Rehman Rizwan  25F-0697
-- Muhammad Ahmad       25F-0776
-## 📋 Project Description
-This e-commerce platform features product listings, shopping cart functionality, user authentication, and a responsive design. Built using HTML, CSS, and JavaScript.
+---
 
-## 🚀 Features
-- Product catalog with categories
-- Shopping cart management
-- User registration/login
-- Responsive design for all devices
-- Secure checkout process
+## ⭐ Key Features
+- Responsive Home, Shop, Blog, About, and Contact sections  
+- Men’s and Women’s product collections with dynamic preview  
+- Simple cart preview and interactive UI components  
+
+---
 
 ## 🛠️ Technology Stack
-- **Frontend**: HTML5, CSS3, JavaScript
-- **Styling**: CSS Grid/Flexbox
-- **Version Control**: Git & GitHub
+- **Frontend:** HTML5, CSS3, JavaScript (ES6+)  
+- **Styling:** CSS Grid & Flexbox  
+- **Version Control:** Git & GitHub  
 
-  
- ## 🔗 Live Demo
+---
 
-Click below to view the live working website:
+## 🔗 Live Demo
+👉 **[View Live Website](https://codeby-taha.github.io/ecommerce-store/)**  
 
-👉 **[Live Demo](https://codeby-taha.github.io/ecommerce-store/)**  
+---
 
+## 👥 Group Members
+- Muhammad Taha Hayyat — **25F-0694**  
+- Abdul Rehman Rizwan — **25F-0697**  
+- Muhammad Ahmad — **25F-0776**
 
-
+---
 
