@@ -29,8 +29,5 @@ Click below to view the live working website:
 👉 **[Live Demo](https://codeby-taha.github.io/ecommerce-store/)**  
 
 
-├── wn4.webp            # Women's product image
-├── wn6.webp            # Women's product image
-│
-└── README.md           # Project documentation
+
 
